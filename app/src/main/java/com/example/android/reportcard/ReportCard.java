@@ -53,12 +53,10 @@ public class ReportCard {
 
     @Override
     public String toString() {
-        return "ReportCard{" +
-                "Student name='" + studentName + '\'' +
-                ", Math grade=" + finalMathGrade +
-                ", English grade=" + finalEnglishGrade +
-                ", Sports grade=" + finalSportsGrade +
-                ", History grade=" + finalHistoryGrade +
-                '}';
+        return "Student name = " + studentName +
+                "\nMath grade = " + finalMathGrade +
+                "\nEnglish grade = " + finalEnglishGrade +
+                "\nSports grade = " + finalSportsGrade +
+                "\nHistory grade = " + finalHistoryGrade;
     }
 }
